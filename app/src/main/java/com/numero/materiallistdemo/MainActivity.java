@@ -1,6 +1,7 @@
 package com.numero.materiallistdemo;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -52,7 +53,8 @@ public class MainActivity extends AppCompatActivity {
         adapter = new ItemAdapter(list, this) {
             @Override
             public void onItemClick(int position, Context context) {
-
+                Intent intent = new Intent(MainActivity.this, InformationActivity.class);
+                startActivity(intent);
             }
 
             @Override

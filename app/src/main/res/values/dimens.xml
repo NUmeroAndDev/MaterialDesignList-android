@@ -7,4 +7,6 @@
     <dimen name="titleTextSize">24sp</dimen>
     <dimen name="subTitleTextSize">14sp</dimen>
 
+    <dimen name="informationItemTextSize">16sp</dimen>
+
 </resources>
